@@ -2,6 +2,25 @@
 
 你可以在这里找到使用过程中可能会产生的一些问题。
 
+## 重要通知
+
+简要概括 : **我们在 2020 年 11 月 18 日中午发现, 腾讯 QQ 更新了 " 群昵称装扮 " 这个功能**
+
+**用户可以在 群聊 → 修改群昵称 页面充值 svip 之后更换昵称装扮。~~这东西不是只有 jk 才会喜欢的吗 ???~~, 经测试发现使用这个装扮会引发 bug , 请暂时不要使用这个装扮。**
+
+详细说明 :
+
+:::danger 警告
+
+- 使用装扮后, 昵称变为特殊的编码, 此种编码会导致传参失败, 即无法让 bot 判断发言者, 即 bot 不会响应使用了这种装扮的用户
+- 报错为 **decode OnlinePush.PbPushGroupMsg error: string field contains invalid UTF-8**
+- 这是 **[protobuf](https://github.com/golang/protobuf)** 的锅, 如果你想关于这个错误的详细, 你可以查看 [这里](https://github.com/golang/protobuf/issues/622) 
+- [Mrs4s](https://github.com/Mrs4s) ( [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 的作者 ) 表示已经有解决方法, 目前需要时间
+
+:::
+
+请在此 bug 修复前, 勿使用昵称装扮。
+
 ## 会战相关
 
 Q : 网页显示不正常。
@@ -75,17 +94,7 @@ Q : 我原来的群出了问题, 我希望 Estonteco 能在我的另一个群提
 
 :::tip 提示
 
-- 请随时联系维护组。
-
-:::
-
-Q : 我该如何获得 Estonteco 的应答服务 : 
-
-:::tip 提示
-
-- 自 2020 年 10月初起已关闭渠道, 你可以在 Estonteco 用户流失到不足以维持运营 Estonteco 服务器之后再联系维护组。
-- 如果你是通过朋友介绍来的, 你可以与我联系, 且你必须说明具体是从 哪个人 / 哪个群 了解到 Estonteco 的。
-- 维护组没有义务提供试用。
+- 请随时联系维护组, 维护组会尽快执行。
 
 :::
 

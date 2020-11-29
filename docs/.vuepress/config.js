@@ -98,6 +98,7 @@ module.exports = {
                     children: [
                         '',
                         'about',
+                        'thanks',
                         'todo',
                         'link'
                     ]

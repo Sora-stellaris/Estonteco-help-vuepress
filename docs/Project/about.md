@@ -1,47 +1,15 @@
-# 致谢名单
+# 关于
 
-本项目受到了别的项目 / 组织 / 个人的帮助。
+Estonteco ( 读音 /estonˈtet͡so/ )是一个基于 [yobot](https://github.com/yuudi/yobot)和 [HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot)的 QQ 机器人, customed by [DiheChen](https://github.com/Chendihe4975)。
 
-## 致谢项目
+形象来源于 公主连结 中 凯露 这一角色。
 
-本项目直接使用了以下项目的源代码 / 二进制文件 : 
+首页的 logo 出自 [thgsohack](https://github.com/kkbllt) 的朋友之手。~~这个朋友真的不是。。。···~~
 
-[yobot](https://github.com/yuudi/yobot) , 
+首次运行于 2020 年 2 月 24 日。
 
-[HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot) ,
+目前由 [DiheChen](https://github.com/Chendihe4975) 进行维护管理。如果你希望和我联系, 你可以发送邮件到 <michikawachin@outlook.com> , 你也可以搜索我的 qid `DiheChen` 。
 
-[nonebot](https://github.com/nonebot/nonebot) ,
+目前服务器由 [oneprovider](https://oneprovider.com/) 提供。由于境内服务器无法驱动 Estonteco 所有功能, 且所有境外机器都要经过腾讯香港的节点, 因此就直接选了香港的机器。
 
-[go-cqhttp](https://github.com/Mrs4s/go-cqhttp) , 
-
-[cqhttpmirai](https://github.com/yyuueexxiinngg/cqhttp-mirai) , 
-
-[ArcaeaBot](https://github.com/Diving-Fish/ArcaeaBot) , 
-
-[reloader](https://github.com/Lancercmd/reloader) , 
-
-[cq-picsearcher-bot](https://github.com/Tsuk1ko/cq-picsearcher-bot) ,
-
-[mirai](https://github.com/mamoe/mirai)
-
----
-
-以下项目为本项目提供了 / 提供过直接 / 间接帮助 : 
-
-[pcrdfans](https://pcrdfans.com/) ,
-
-[干炸里脊资源站](https://redive.estertion.win/) ,
-
-[能不能好好说话 ? ](https://lab.magiconch.com/nbnhhsh/) 
-
-## 致谢组织
-
-[pcrbot](https://github.com/pcrbot) 
-
-## 致谢个人
-
-本项目直接受到过 [Adpex](https://github.com/Adpex) , [AkatsukiYamisora](https://github.com/AkatsukiYamisora) , [Aspirin](https://github.com/AkiraXie) , [Lancercmd](https://github.com/Lancercmd) , [Ice-Cirno ](https://github.com/Ice-Cirno), [ishkong ](https://github.com/ishkong), [thgsohack](https://github.com/kkbllt) , [WenyiDong](https://github.com/WenyiDong) , [yoshino](https://github.com/111234567890) , [yuudi](https://github.com/yuudi) , [yyuueexxiinngg](https://github.com/yyuueexxiinngg) 等帮助。
-
-[estertion](https://github.com/estertion) , [peterli](https://github.com/peterli110) , [thgsohack](https://github.com/kkbllt) , [yoshino](https://github.com/111234567890) , [yuudi](https://github.com/yuudi) , 自愿或被迫自愿为本项目提供了丰富的 api , 非常感谢。
-
-[yoshino](https://github.com/111234567890) 为本项目部署提出了包括但不限于服务器的选择等非常实用的建议, 以及大量 ~~白嫖 / 捡漏~~ 小技巧, 非常感谢！
+有迁移至 aws 云的打算。

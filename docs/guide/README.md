@@ -1,14 +1,19 @@
 # 概览
 
 :::tip 提示
-如果在阅读本文档时遇到难以理解的词汇, 请随时在 [常见问题](../faq/) 中的评论区指出, 或者帮我们改进这个文档。
+- 如果在阅读本文档时遇到难以理解的词汇, 请随时在 [常见问题](../faq/) 中的评论区指出, 或者帮我们改进这个文档。
+
 :::
 
 :::tip 提示
-初次阅读文档可能会觉得枯燥, 但此文档是您了解 Estonteco 功能的一个重要途径, 请务必阅读。
+
+- 初次阅读文档可能会觉得枯燥, 但此文档是您了解 Estonteco 功能的一个重要途径, 请务必阅读。
+
 :::
 
 Estonteco ( 读音 /estonˈtet͡so/ )是一个基于 [yobot](https://github.com/yuudi/yobot) 和 [HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot) 的  QQ 机器人, 主要在 公主连结 玩家的 QQ 群中提供应答服务。借助 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 对 QQ 机器人收到的消息进行解析和处理, 并以插件化的形式, 分发给消息所对应的命令处理器, 来完成具体的功能。
+
+> 首页的 logo 出自 [thgsohack](https://github.com/kkbllt) 的朋友之手。
 
 > 目前, Estonteco 已在保证兼容性和独立性及维护便利的前提下, 实现了全功能的模块化。
 
